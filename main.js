@@ -13,13 +13,12 @@ classImg.className = 'img'
 newMain.append(classImg)
 bodyElement.append(newMain)
 
-let classAnchor = document.createElement('link')
+let classAnchor = document.createElement('a')
 classAnchor.href = 'https://www.imdb.com/title/tt0487831/'
 classAnchor.append("See more IT Crowd")
-classAnchor.className = 'link'
+classAnchor.className = 'a'
 newMain.append(classAnchor)
 bodyElement.append(newMain)
-
 
 newButton.addEventListener("click", function(){
  newMain.remove()
