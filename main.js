@@ -16,7 +16,7 @@ bodyElement.append(newMain)
 let classAnchor = document.createElement('a')
 classAnchor.href = 'https://www.imdb.com/title/tt0487831/'
 classAnchor.append("See more IT Crowd")
-classAnchor.className = 'a'
+classAnchor.className = 'link'
 newMain.append(classAnchor)
 bodyElement.append(newMain)
 
