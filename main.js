@@ -23,3 +23,28 @@ bodyElement.append(newMain)
 newButton.addEventListener("click", function(){
  newMain.remove()
 })
+
+let newInput = document.createElement ('Input')
+newInput.type = 'text'
+newInput.id = 'textbox'
+newInput.placeholder = 'Can you relate?'
+bodyElement.append(newInput)
+
+let bodyButton = document.createElement ('Button')
+bodyButton.append('Click to add comment')
+bodyElement.append(bodyButton)
+
+
+
+bodyButton.addEventListener("click", function(){
+   let newDiv = document.createElement ('Div')
+    newDiv.append(newInput)
+    bodyElement.append(newDiv)
+    
+})
+
+
+
+
+
+
